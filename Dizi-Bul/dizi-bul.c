@@ -3,16 +3,16 @@
 #include <math.h>
 #include <locale.h>
 
-/* Ümit Şen - İzmir 2019 */
+/* Umit Sen 2019 */
 
 int main(int argc, char *argv[]) {
 	setlocale(LC_ALL,"turkish");
 	int sayi = atoi(argv[1]);
 	int dx = atoi(argv[2]);
 	int k;
-	printf("Girilen Sayı  : %d\n", sayi);
-	printf("Artma Miktarı : %d\n\n", dx);
-	int s = 0; // bulunan dizi sayısı
+	printf("Girilen SayÃ½  : %d\n", sayi);
+	printf("Artma MiktarÃ½ : %d\n\n", dx);
+	int s = 0; // bulunan dizi sayÃ½sÃ½
 	int N = 2 * sayi;
 	for (k = 1; k < sayi; k++)
 	{	
@@ -23,13 +23,13 @@ int main(int argc, char *argv[]) {
 	      if (fmod(x, 1) == 0 && x > 0 && (x+k*dx)>0)
 	      {
 	        s += 1;
-	        printf("%.3d. Dizi : İlk Terim : %15d, Son Terim : %15d, Terim Sayısı : %15d\n", s, (int)x, (int)(x + dx*k), (k + 1));
+	        printf("%.3d. Dizi : Ãlk Terim : %15d, Son Terim : %15d, Terim SayÃ½sÃ½ : %15d\n", s, (int)x, (int)(x + dx*k), (k + 1));
 	      }
 	    }
 	  }
 	if(s==0)
 	{
-		printf("Girilen Şartlara Uygun Dizi Bulunamadı...\n");
+		printf("Girilen Ãartlara Uygun Dizi BulunamadÃ½...\n");
 	}
 	return 0;
 }
