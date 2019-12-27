@@ -12,4 +12,4 @@ Ya da Toplamları 105 olan terimleri arasındaki fark 2 olan diziler
 * 2.Dizi : 17+19+21+23+25 = 105      Terim Sayısı : 5
 * 3.Dizi : 9+11+13+15+17+19+21 = 105 Terim Sayısı : 7
 
-Konuyla ilgili açıklamaya 
+Konuyla ilgili açıklamaya https://umitsen.wordpress.com/?p=2481
